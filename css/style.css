@@ -1,0 +1,72 @@
+
+/* menu bar section start */
+.navbar-brand > img{
+    width: auto !important;
+    height: 40px !important;
+}
+/* menu bar section end */
+
+/* hero-slider section start */
+.carousel-inner .carousel-item{
+    height: 300px !important;
+}
+/* hero-slider section end */
+
+/*  ****** Services section start ******* */
+.card img{
+    height: 230px !important;
+}
+.overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    background-color: #00000075;
+  }
+  .card-img:hover .overlay {
+    opacity: 1;
+  }
+  .card-img .overlay .bx {
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transition: ease-in-out .4s;
+  }
+  .card-img .overlay .bx:hover {
+    color: #aaebff !important;
+  }
+  .card-body,
+  .card-body h5,
+  .card-body p{
+      transition: ease-in-out .4s;
+  }
+  .card-body:hover{
+      background: #f14b4b;
+      padding-top: 19px !important;
+      padding-bottom: 29px !important;
+  }
+  .card-body:hover h5,
+  .card-body:hover p{
+      color: #fff !important;
+  }
+/* Services section end */
+
+/* book a table section start */
+/* book a table section end */
+
+/* contact us section start */
+/* contact us section end */
+
+/* footer section start */
+#footer .img img{
+    height: 60px !important;
+    width: 65px !important;
+}
+#footer .img .bx{
+    font-size: 40px !important; 
+}
+/* footer section end */
